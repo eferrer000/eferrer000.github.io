@@ -29,6 +29,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+img.wrap {float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.boxed {
+  border: 3px solid green ; 
+  margin-left:  auto;
+  margin-right:  auto;
+  width: 80%;
+}
+
+
+p.ex1 {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+
+
 body {
 	line-height: 1;
 }
